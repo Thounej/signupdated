@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LATITUDE SIGNS</title><!-- title of your page, appears on the tab -->
+    <style>
+        body {
+            background-color: #121212; /*hex code for the page background color*/
+            color: #ffffff; /*hex code for the color of the text*/
+            font-family: 'Courier New', Courier, monospace; /*font for the text*/
+            display: flex;/*shouldnt worry about the rest its mostly so that the table works*/
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+        }
+
+        h1 {
+            font-size: 2rem;/*size of the title at the top of the page*/
+            margin-bottom: 20px;/*just some space below*/
+        }
+
+        table {
+            border-collapse: collapse;/*all of this controls the size of the table*/
+            width: 90%;
+            max-width: 1200px;
+        }
+
+        th {
+            padding: 10px;/*these are for the column titles at the top no need to change anything*/
+            text-align: center;
+            font-size: 1.2rem;
+            width: 200px;
+        }
+
+        td {
+            padding: 10px;/*these are the columns no need to change anything*/
+            text-align: center;
+            vertical-align: top;
+            width: 200px;
+        }
+
+        img {
+            width: 100%;/*these are for the images*/
+            max-width: 180px;/*this makes it so the signs arent shown at full size so the page isnt too big*/
+            cursor: pointer;
+            transition: transform 0.2s ease;/*makes the signs bigger when hovered so the user knows where the mouse is*/
+        }
+
+        img:hover {
+            transform: scale(1.05);/*controls the transition for the sign getting bigger*/
+        }
+
+        .confirmation {/*this is the confirmation message when you click on a sign*/
+            background-color: green;/*you can name colors directly, or use hex codes*/
+            position: fixed;/*makes sure the message is in a consistent place*/
+            padding: 5px;
+            top: 200px;/*means the message is 200px from the top of the screen*/
+            visibility: hidden;/*it is hidden because it only appears when you click on a sign, explained later*/
+            font-size: 1rem;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>LATITUDE SIGNS</h1><!-- change accordingly -->
+
+    <table>
+        <tr>
+            <th>2x1 overlay</th><!-- name of the first column -->
+            <th>2x1</th><!-- name of the second column -->
+            <th>4x1</th><!-- name of the third column -->
+            <th>4x1 overlay</th><!-- name of the fourth column -->
+            <th>6x1</th><!-- name of the fifth column if needed, delete if not -->
+        </tr>
+        <tr>
+            <td><!-- this is the first column -->
+                <img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_2X1ARROWDOWN.webp" alt="1x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_2X1ARROWDOWN.webp')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_2X1ARROWDOWNWHITE.webp" alt="1x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_2X1ARROWDOWNWHITE.webp')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_2X1ARROWLEFT.webp" alt="1x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_2X1ARROWLEFT.webp')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_2X1ARROWLEFTWHITE.webp" alt="1x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_2X1ARROWLEFTWHITE.webp')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_2X1ARROWRIGHT.webp" alt="1x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_2X1ARROWRIGHT.webp')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_2X1ARROWRIGHTWHITE.webp" alt="1x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_2X1ARROWRIGHTWHITE.webp')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_2X1ARROWUP.webp" alt="1x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_2X1ARROWUP.webp')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_2X1ARROWUPWHITE.webp" alt="1x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_2X1ARROWUPWHITE.webp')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_2X1DOWN.webp" alt="1x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_2X1DOWN.webp')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_2X1DOWNWHITE.webp" alt="1x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_2X1DOWNWHITE.webp')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_2X1LEFT.webp" alt="1x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_2X1LEFT.webp')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_2X1LEFTWHITE.webp" alt="1x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_2X1LEFTWHITE.webp')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_2X1RIGHT.webp" alt="1x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_2X1RIGHT.webp')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_2X1RIGHTWHITE.webp" alt="1x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_2X1RIGHTWHITE.webp')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_2X1UP.webp" alt="1x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_2X1UP.webp')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_2X1UPWHITE.webp" alt="1x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_2X1UPWHITE.webp')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_2X1TEXT.webp" alt="1x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_2X1TEXT.webp')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_2X1TEXTWHITE.webp" alt="1x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_2X1TEXTWHITE.webp')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_2X1LOGO.webp" alt="1x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_2X1LOGO.webp')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_2X1LOGOWHITE.webp" alt="1x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_2X1LOGOWHITE.webp')">
+            </td>
+            <td><!-- this is the second column -->
+                <img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/BG_2x1BLACK.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/BG_2x1BLACK.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/BG_2x1BLUE.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/BG_2x1BLUE.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/BG_2x1GREEN.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/BG_2x1GREEN.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/BG_2x1RED.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/BG_2x1RED.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/BG_2x1WHITEjpg.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/BG_2x1WHITEjpg.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/BG_2x1YELLOW.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/BG_2x1YELLOW.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_dYel_SP.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_dYel_SP.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_dRed_SP.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_dRed_SP.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_dPur_SP.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_dPur_SP.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_dOra_SP.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_dOra_SP.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_dMag_SP.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_dMag_SP.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_dGre_SP.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_dGre_SP.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_dCya_SP.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_dCya_SP.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_dBlu_SP.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_dBlu_SP.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_Blk_SP.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_Blk_SP.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_Tan_WSP.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_Tan_WSP.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_Red_WSP.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_Red_WSP.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_Ora_WSP.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_Ora_WSP.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_Gre_WSP.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_Gre_WSP.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_Cya_WSP.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_Cya_WSP.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_Blu_WSP.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_Blu_WSP.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_Pur_WSP.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_Pur_WSP.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_Mag_WSP.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_Mag_WSP.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_Yel.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_Yel.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_Whi.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_Whi.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_Tan.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_Tan.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_Red.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_Red.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_Pur.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_Pur.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_Ora.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_Ora.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_Gre.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_Gre.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_Cya.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_Cya.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_Blu.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_Blu.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_Pin.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_Pin.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_Mag.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_Mag.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_dYel.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_dYel.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_dRed.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_dRed.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_dPur.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_dPur.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_dMag.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_dMag.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_dGre.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_dGre.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_dCya.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_dCya.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_dBlu.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_dBlu.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_dOra.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_dOra.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_Blk.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_2x1_Blk.jpg')">
+            </td>
+            <td><!-- this is the third column -->
+                <img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/BG_4X1BLACK.jpg" alt="4x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/BG_4X1BLACK.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/BG_4X1BLUE.jpg" alt="4x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/BG_4X1BLUE.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/BG_4X1GREEN.jpg" alt="4x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/BG_4X1GREEN.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/BG_4X1RED.jpg" alt="4x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/BG_4X1RED.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/BG_4X1WHITE.jpg" alt="4x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/BG_4X1WHITE.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/BG_4X1YELLOW.jpg" alt="4x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/BG_4X1YELLOW.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_dBlu_SP.jpg" alt="4x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_dBlu_SP.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_dYel_SP.jpg" alt="4x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_dYel_SP.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_dRed_SP.jpg" alt="4x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_dRed_SP.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_dPur_SP.jpg" alt="4x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_dPur_SP.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_dOra_SP.jpg" alt="4x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_dOra_SP.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_dMag_SP.jpg" alt="4x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_dMag_SP.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_dGre_SP.jpg" alt="4x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_dGre_SP.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_Tan_WSP.jpg" alt="4x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_Tan_WSP.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_Red_WSP.jpg" alt="4x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_Red_WSP.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_Pur_WSP.jpg" alt="4x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_Pur_WSP.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_Ora_WSP.jpg" alt="4x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_Ora_WSP.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_Cya_WSP.jpg" alt="4x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_Cya_WSP.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_Mag_WSP.jpg" alt="4x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_Mag_WSP.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_Blu_WSP.jpg" alt="4x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_Blu_WSP.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_Yel.jpg" alt="4x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_Yel.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_Whi.jpg" alt="4x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_Whi.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_Tan.jpg" alt="4x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_Tan.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_Red.jpg" alt="4x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_Red.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_Pur.jpg" alt="4x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_Pur.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_Pin.jpg" alt="4x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_Pin.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_Ora.jpg" alt="4x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_Ora.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_Mag.jpg" alt="4x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_Mag.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_Gre.jpg" alt="4x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_Gre.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_Cya.jpg" alt="4x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_Cya.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_Blu.jpg" alt="4x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_Blu.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_dYel.jpg" alt="4x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_dYel.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_dRed.jpg" alt="4x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_dRed.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_dPur.jpg" alt="4x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_dPur.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_dOra.jpg" alt="4x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_dOra.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_dMag.jpg" alt="4x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_dMag.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_dGre.jpg" alt="4x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_dGre.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_dCya.jpg" alt="4x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_dCya.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_dBlu.jpg" alt="4x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_dBlu.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_Blk.jpg" alt="4x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_4x1_Blk.jpg')">
+		
+		
+		
+            </td>
+            <td><!-- this is the fourth column -->
+                <img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_4X1ARROWDOWN.webp" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_4X1ARROWDOWN.webp')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_4X1ARROWDOWNWHITE.webp" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_4X1ARROWDOWNWHITE.webp')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_4X1ARROWLEFT.webp" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_4X1ARROWLEFT.webp')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_4X1ARROWLEFTWHITE.webp" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_4X1ARROWLEFTWHITE.webp')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_4X1ARROWRIGHT.webp" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_4X1ARROWRIGHT.webp')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_4X1ARROWRIGHTWHITE.webp" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_4X1ARROWRIGHTWHITE.webp')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_4X1ARROWUP.webp" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_4X1ARROWUP.webp')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_4X1ARROWUPWHITE.webp" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_4X1ARROWUPWHITE.webp')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_4X1DOWN.webp" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_4X1DOWN.webp')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_4X1DOWNWHITE.webp" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_4X1DOWNWHITE.webp')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_4X1LEFT.webp" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_4X1LEFT.webp')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_4X1LEFTWHITE.webp" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_4X1LEFTWHITE.webp')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_4X1RIGHT.webp" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_4X1RIGHT.webp')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_4X1RIGHTWHITE.webp" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_4X1RIGHTWHITE.webp')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_4X1UP.webp" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_4X1UP.webp')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_4X1UPWHITE.webp" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_4X1UPWHITE.webp')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_4X1LOGO.webp" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_4X1LOGO.webp')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_4X1LOGOWHITE.webp" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_4X1LOGOWHITE.webp')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_4X1TEXT.webp" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_4X1TEXT.webp')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_4X1TEXTWHITE.webp" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LAT_4X1TEXTWHITE.webp')">
+            </td>
+            <td><!-- this is the fifth column -->
+                <img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_6x1_Blk.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_6x1_Blk.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_START_6x1_Blk.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_START_6x1_Blk.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_RISKY_6x1_Blk.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_RISKY_6x1_Blk.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_LOGO3_6x1_Blk.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_LOGO3_6x1_Blk.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_LOGO2_6x1_Blk.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_LOGO2_6x1_Blk.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_LOGO1_6x1_Blk.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_LOGO1_6x1_Blk.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_GPS_6x1_Blk.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_GPS_6x1_Blk.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_FINISH_6x1_Blk.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_FINISH_6x1_Blk.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_6x1_dBlu.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_6x1_dBlu.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_START_6x1_dBlu.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_START_6x1_dBlu.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_RISKY_6x1_dBlu.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_RISKY_6x1_dBlu.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_LOGO3_6x1_dBlu.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_LOGO3_6x1_dBlu.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_LOGO2_6x1_dBlu.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_LOGO2_6x1_dBlu.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_LOGO1_6x1_dBlu.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_LOGO1_6x1_dBlu.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_GPS_6x1_dBlu.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_GPS_6x1_dBlu.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_FINISH_6x1_dBlu.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_FINISH_6x1_dBlu.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_6x1_dCya.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_6x1_dCya.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_START_6x1_dCya.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_START_6x1_dCya.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_FINISH_6x1_dCya.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_FINISH_6x1_dCya.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_RISKY_6x1_dCya.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_RISKY_6x1_dCya.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_LOGO3_6x1_dCya.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_LOGO3_6x1_dCya.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_LOGO2_6x1_dCya.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_LOGO2_6x1_dCya.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_LOGO1_6x1_dCya.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_LOGO1_6x1_dCya.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_GPS_6x1_dCya.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_GPS_6x1_dCya.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_6x1_dGre.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_6x1_dGre.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_LOGO3_6x1_dGre.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_LOGO3_6x1_dGre.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_LOGO2_6x1_dGre.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_LOGO2_6x1_dGre.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_LOGO1_6x1_dGre.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_LOGO1_6x1_dGre.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_START_6x1_dGre.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_START_6x1_dGre.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_RISKY_6x1_dGre.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_RISKY_6x1_dGre.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_FINISH_6x1_dGre.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_FINISH_6x1_dGre.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_GPS_6x1_dGre.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_GPS_6x1_dGre.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_6x1_dMag.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_6x1_dMag.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_START_6x1_dMag.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_START_6x1_dMag.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_RISKY_6x1_dMag.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_RISKY_6x1_dMag.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_LOGO3_6x1_dMag.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_LOGO3_6x1_dMag.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_LOGO2_6x1_dMag.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_LOGO2_6x1_dMag.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_LOGO1_6x1_dMag.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_LOGO1_6x1_dMag.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_GPS_6x1_dMag.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_GPS_6x1_dMag.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_FINISH_6x1_dMag.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_FINISH_6x1_dMag.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_6x1_dOra.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_6x1_dOra.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_START_6x1_dOra.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_START_6x1_dOra.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_LOGO1_6x1_dOra.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_LOGO1_6x1_dOra.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_LOGO2_6x1_dOra.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_LOGO2_6x1_dOra.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_LOGO3_6x1_dOra.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_LOGO3_6x1_dOra.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_FINISH_6x1_dOra.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_FINISH_6x1_dOra.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_RISKY_6x1_dOra.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_RISKY_6x1_dOra.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_GPS_6x1_dOra.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_GPS_6x1_dOra.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_6x1_dPur.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_6x1_dPur.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_START_6x1_dPur.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_START_6x1_dPur.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_LOGO3_6x1_dPur.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_LOGO3_6x1_dPur.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_LOGO2_6x1_dPur.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_LOGO2_6x1_dPur.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_LOGO1_6x1_dPur.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_LOGO1_6x1_dPur.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_RISKY_6x1_dPur.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_RISKY_6x1_dPur.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_FINISH_6x1_dPur.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_FINISH_6x1_dPur.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_GPS_6x1_dPur.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_GPS_6x1_dPur.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_6x1_dRed.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_6x1_dRed.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_GPS_6x1_dRed.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_GPS_6x1_dRed.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_START_6x1_dRed.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_START_6x1_dRed.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_RISKY_6x1_dRed.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_RISKY_6x1_dRed.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_LOGO3_6x1_dRed.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_LOGO3_6x1_dRed.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_LOGO2_6x1_dRed.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_LOGO2_6x1_dRed.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_LOGO1_6x1_dRed.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_LOGO1_6x1_dRed.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_FINISH_6x1_dRed.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_FINISH_6x1_dRed.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_6x1_dYel.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_6x1_dYel.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_START_6x1_dYel.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_START_6x1_dYel.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_GPS_6x1_dYel.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_GPS_6x1_dYel.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_RISKY_6x1_dYel.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_RISKY_6x1_dYel.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_FINISH_6x1_dYel.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_FINISH_6x1_dYel.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_LOGO3_6x1_dYel.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_LOGO3_6x1_dYel.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_LOGO2_6x1_dYel.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_LOGO2_6x1_dYel.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_LOGO1_6x1_dYel.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_LOGO1_6x1_dYel.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_6x1_Whi.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_6x1_Whi.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_START_6x1_Whi.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_START_6x1_Whi.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_RISKY_6x1_Whi.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_RISKY_6x1_Whi.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_LOGO3_6x1_Whi.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_LOGO3_6x1_Whi.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_LOGO2_6x1_Whi.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_LOGO2_6x1_Whi.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_LOGO1_6x1_Whi.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_LOGO1_6x1_Whi.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_GPS_6x1_Whi.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_GPS_6x1_Whi.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_FINISH_6x1_Whi.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_FINISH_6x1_Whi.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_6x1_Tan.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_6x1_Tan.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_6x1_Red.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_6x1_Red.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_6x1_Pin.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_6x1_Pin.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_6x1_Gre.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_6x1_Gre.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_6x1_Cya.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_6x1_Cya.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_6x1_Yel.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_6x1_Yel.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_6x1_Pur.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_6x1_Pur.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_6x1_Mag.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_6x1_Mag.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_6x1_Ora.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_6x1_Ora.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_6x1_Blu.jpg" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_BG1_6x1_Blu.jpg')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP01_6x1_B.png" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP01_6x1_B.png')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP02_6x1_B.png" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP02_6x1_B.png')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP03_6x1_B.png" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP03_6x1_B.png')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP04_6x1_B.png" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP04_6x1_B.png')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP05_6x1_B.png" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP05_6x1_B.png')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP06_6x1_B.png" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP06_6x1_B.png')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP07_6x1_B.png" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP07_6x1_B.png')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP08_6x1_B.png" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP08_6x1_B.png')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP09_6x1_B.png" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP09_6x1_B.png')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP10_6x1_B.png" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP10_6x1_B.png')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP11_6x1_B.png" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP11_6x1_B.png')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP12_6x1_B.png" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP12_6x1_B.png')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP13_6x1_B.png" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP13_6x1_B.png')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP14_6x1_B.png" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP14_6x1_B.png')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP15_6x1_B.png" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP15_6x1_B.png')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP16_6x1_B.png" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP16_6x1_B.png')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP17_6x1_B.png" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP17_6x1_B.png')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP18_6x1_B.png" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP18_6x1_B.png')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP19_6x1_B.png" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP19_6x1_B.png')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP20_6x1_B.png" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP20_6x1_B.png')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP01_6x1_W.png" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP01_6x1_W.png')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP02_6x1_W.png" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP02_6x1_W.png')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP03_6x1_W.png" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP03_6x1_W.png')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP04_6x1_W.png" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP04_6x1_W.png')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP05_6x1_W.png" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP05_6x1_W.png')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP06_6x1_W.png" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP06_6x1_W.png')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP07_6x1_W.png" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP07_6x1_W.png')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP08_6x1_W.png" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP08_6x1_W.png')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP09_6x1_W.png" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP09_6x1_W.png')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP10_6x1_W.png" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP10_6x1_W.png')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP11_6x1_W.png" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP11_6x1_W.png')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP12_6x1_W.png" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP12_6x1_W.png')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP13_6x1_W.png" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP13_6x1_W.png')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP14_6x1_W.png" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP14_6x1_W.png')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP15_6x1_W.png" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP15_6x1_W.png')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP16_6x1_W.png" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP16_6x1_W.png')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP17_6x1_W.png" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP17_6x1_W.png')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP18_6x1_W.png" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP18_6x1_W.png')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP19_6x1_W.png" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP19_6x1_W.png')">
+		<img src="https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP20_6x1_W.png" alt="2x1" onclick="copyToClipboard('https://download.dashmap.live/0011d4b9-a323-474d-9fe2-92cb38b9fd05/LM924_O_CP20_6x1_W.png')">
+
+
+            </td>
+        </tr>
+    </table>
+
+    <div id="confirmation" class="confirmation">Sign copied ! Paste it in-game !</div><!-- this is the actual message shown, you can change the text as needed -->
+
+<!-- below is the javascript for copying the sign, you don't need to change anything, it also makes the confirmation visible when you click on an image so the user has a visual clue that it works -->
+    <script>
+        function copyToClipboard(url) {
+            navigator.clipboard.writeText(url).then(() => {
+                const confirmation = document.getElementById('confirmation');
+                confirmation.style.visibility = 'visible';
+                setTimeout(() => {
+                    confirmation.style.visibility = 'hidden';
+                }, 2000);/*this number is how long the confirmation message stays on screen*/
+            }).catch(err => {
+                console.error('Failed to copy: ', err);
+            });
+        }
+    </script>
+</body>
+</html>
